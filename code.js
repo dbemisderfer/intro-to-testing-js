@@ -5,5 +5,9 @@ function helloWorld() {
 
 // sayHello function
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (input === "World") {
+        return "Hello, World!";
+    } else {
+        return "Hello, " + input + "!";
+    }
 }
